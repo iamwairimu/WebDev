@@ -453,6 +453,48 @@ form {
   color: #fff;
 }
 
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+}
+
+.nav-menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-menu a {
+  color: #eee;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav-menu a:hover {
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Dropdown Styling */
+.nav-menu li ul {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  padding: 10px;
+  list-style: none;
+  min-width: 150px;
+}
+
+.nav-menu li:hover > ul {
+  display: block;
+}
+
+.nav-menu li ul li {
+  display: block;
+}
 /* Intro tag */
 
 #intro {
