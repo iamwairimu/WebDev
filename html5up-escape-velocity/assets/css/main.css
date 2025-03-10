@@ -226,7 +226,7 @@ a {
   -webkit-transition: color 0.25s ease-in-out;
   -ms-transition: color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out;
-  text-decoration: underline;
+  text-decoration: none;
   color: #717479;
 }
 
@@ -328,7 +328,7 @@ form {
   align-items: stretch;
 }
 
-.row > * {
+.row * {
   box-sizing: border-box;
 }
 
@@ -360,103 +360,103 @@ form {
   align-items: flex-end;
 }
 
-.row > .imp {
+.row .imp {
   order: -1;
 }
 
-.row > .col-1 {
+.row .col-1 {
   width: 8.33333%;
 }
 
-.row > .off-1 {
+.row .off-1 {
   margin-left: 8.33333%;
 }
 
-.row > .col-2 {
+.row .col-2 {
   width: 16.66667%;
 }
 
-.row > .off-2 {
+.row .off-2 {
   margin-left: 16.66667%;
 }
 
-.row > .col-3 {
+.row .col-3 {
   width: 25%;
 }
 
-.row > .off-3 {
+.row .off-3 {
   margin-left: 25%;
 }
 
-.row > .col-4 {
+.row .col-4 {
   width: 33.33333%;
 }
 
-.row > .off-4 {
+.row .off-4 {
   margin-left: 33.33333%;
 }
 
-.row > .col-5 {
+.row .col-5 {
   width: 41.66667%;
 }
 
-.row > .off-5 {
+.row .off-5 {
   margin-left: 41.66667%;
 }
 
-.row > .col-6 {
+.row .col-6 {
   width: 50%;
 }
 
-.row > .off-6 {
+.row .off-6 {
   margin-left: 50%;
 }
 
-.row > .col-7 {
+.row .col-7 {
   width: 58.33333%;
 }
 
-.row > .off-7 {
+.row .off-7 {
   margin-left: 58.33333%;
 }
 
-.row > .col-8 {
+.row .col-8 {
   width: 66.66667%;
 }
 
-.row > .off-8 {
+.row .off-8 {
   margin-left: 66.66667%;
 }
 
-.row > .col-9 {
+.row .col-9 {
   width: 75%;
 }
 
-.row > .off-9 {
+.row .off-9 {
   margin-left: 75%;
 }
 
-.row > .col-10 {
+.row .col-10 {
   width: 83.33333%;
 }
 
-.row > .off-10 {
+.row .off-10 {
   margin-left: 83.33333%;
 }
 
-.row > .col-11 {
+.row .col-11 {
   width: 91.66667%;
 }
 
-.row > .off-11 {
+.row .off-11 {
   margin-left: 91.66667%;
 }
 
-.row > .col-12 {
+.row .col-12 {
   width: 100%;
 }
 
-.row > .off-12 {
+.row .off-12 {
   margin-left: 100%;
 }
 
@@ -1904,7 +1904,6 @@ ul.actions {
 ul.actions li {
   display: inline-block;
   margin: 0 0.75em 0 0.75em;
-  padding-left: 0;
 }
 
 ul.actions li:first-child {
@@ -2164,7 +2163,7 @@ ul.actions.special {
   justify-content: center;
   position: relative;
   height: 24em;
-  background: url("../../images/banner.jpg") center center;
+  background: url("../../images/banner.jpeg") center center;
   background-size: cover;
   padding: 0;
 }
@@ -2241,7 +2240,7 @@ ul.actions.special {
 #nav > ul > li > a,
 #nav > ul > li > span {
   display: block;
-  color: #eee;
+  color: #000;
   color: rgba(255, 255, 255, 0.75);
   text-transform: uppercase;
   text-decoration: none;
@@ -2258,12 +2257,12 @@ ul.actions.special {
 }
 
 #nav > ul > li:hover > a {
-  color: #fff;
+  color: #000;
 }
 
 #nav > ul > li.active > a,
 #nav > ul > li.active > span {
-  color: #fff;
+  color: #000;
 }
 
 .dropotron {
@@ -2319,17 +2318,17 @@ ul.actions.special {
 
 /* Intro */
 
-#intro {
+.intro {
   padding-bottom: 8em;
   text-align: center;
 }
 
-#intro p.style1 {
+.intro p.style1 {
   font-size: 1.5em;
   letter-spacing: 0.075em;
 }
 
-#intro p.style2 {
+.intro p.style2 {
   font-weight: 700;
   color: #fff;
   border-radius: 0.35em;
@@ -2341,12 +2340,12 @@ ul.actions.special {
   margin-bottom: 1em;
 }
 
-#intro p.style2 a {
+.intro p.style2 a {
   color: inherit;
   text-decoration: none;
 }
 
-#intro p.style3 {
+.intro p.style3 {
   font-size: 1.1em;
   width: 48em;
   margin: 0 auto;
