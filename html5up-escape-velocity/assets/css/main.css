@@ -2124,16 +2124,16 @@ ul.actions.special {
 
 .wrapper.style2 .title {
   background: #fff;
-  color: #484d55;
+  color: #fff;
 }
 
 .wrapper.style3 {
-  background: #de6915 url("images/overlay.png");
+  background: #477d05 url("images/overlay.png");
 }
 
 .wrapper.style3 .title {
-  background: #de6915 url("images/overlay.png");
-  color: #484d55;
+  background: #477d05 url("images/overlay.png");
+  color: #fff;
 }
 
 .wrapper.style3 .image {
